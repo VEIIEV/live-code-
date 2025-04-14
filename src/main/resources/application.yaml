@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: 1234
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    name: postgres
+  application:
+    name: live-coding-app
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+server:
+  port: 8080
